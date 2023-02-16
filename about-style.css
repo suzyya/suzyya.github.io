@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+    padding-top: 150px;
+}
+
+.about-container{
+    margin: auto;
+    width: 900px;
+    height: max-content;
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    color: black;
+
+}
+.profile-pic{
+    height: 250px;
+}
+
+.about-me p{
+    text-align: justify;
+    padding: 10px;
+}
+
+.decor{
+    height: 400px;
+    position: absolute;
+    opacity: 0.6;
+    z-index: -100;
+}

@@ -1,0 +1,29 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.pagination {
+    display: inline-block;
+    margin-top: 100px;
+  }
+  
+  .pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #00ADB5;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color:#00acb534;
+}
+
+
